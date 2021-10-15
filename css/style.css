@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*header{
+    background-color: red;
+}*/
+
+/*BARRA DE NAVEGACIÓN*/
+
+
+nav{
+    background: rgba(21, 21, 21, 0.8);
+    height: 200px;
+    
+    
+
+    
+    
+    
+
+
+
+    
+
+}
+
+/*nav{
+    background: rgba(21, 21, 21, 0.8);
+    padding: 20px;
+    margin:0%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+
+
+
+}*/
+
+/*nav a{
+    color:white;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    
+}*/
+
+nav a{
+    color:rgb(255, 255, 255); 
+    margin: 5px;
+
+}
+
+nav a:hover{
+    background: rgba(88, 87, 87, 0.15);
+    padding: 15px 5px 15px 5px;
+}
+
+
+.DivNav{
+    position: relative;
+    text-align: center;
+    
+
+}
+
+/*main{
+    background-color: lime;
+
+}*/
+
+/*FOOTER*/
+
+footer{
+    background-color: rgba(21, 21, 21, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(255, 255, 255); 
+
+    
+
+}
+
+#chat{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    margin: 0PX, 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+}
+
+
+/*SECTION BIENVENIDOS*/
+.SectionBienvenidos{
+    position: relative;
+
+}
+
+#imagenComida{
+    
+        width: 100%;
+        height: 100%;
+}
+
+.DivBienvenidos{
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  color: aliceblue;
+}
+
+/*SECTION DOS*/
+
+h2{
+    position: relative;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.lorem{
+    margin: 10px;
+}
+.fotoDelChef{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+
+/*RESPONSIVE*/
+
+/**/
+
+@media all and (min-width: 280px) and (max-width:767px)
+{
+    h1{
+        color: red;
+    }
+    
+    .logoRestaurantNav{
+        position: relative;
+        left: 10%;
+
+    }
+
+    
+.SectionBienvenidos {
+    position: relative;
+    
+    
+}
+
+.DivBienvenidos {
+    position: absolute;
+    top: 31%;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    color: aliceblue;
+    height: 200px;
+}
+
+.divImagenComida{
+    height:375px;
+}
+
+.fotoDelChef{
+    
+    margin: 0px 0px;
+    width: 103%;
+    position: relative;
+    left: -2%;
+
+}
+
+footer{
+    background-color: rgba(21, 21, 21, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(255, 255, 255); 
+    width: 367px;
+    margin: 0px;
+
+    
+
+}
+
+.logoRestaurantNav {
+    position: relative;
+    left: 10%;
+    width: 200px;
+}
+
+
+
+#imagenChef{
+    width: 100%;
+}
+
+
+
+    
+
+}
+
+
+
+
+
